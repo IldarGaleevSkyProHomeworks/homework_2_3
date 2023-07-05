@@ -1,0 +1,7 @@
+import data_providers.dataprovider
+import data_providers.jsonfile_dataprovider
+import data_providers.jsonkeeper_dataprovider
+
+DataProvider = data_providers.dataprovider.DataProvider
+JsonFileDataProvider = data_providers.jsonfile_dataprovider.JsonFileDataProvider
+JsonKeeperDataProvider = data_providers.jsonkeeper_dataprovider.JsonKeeperDataProvider
